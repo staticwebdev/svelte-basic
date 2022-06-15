@@ -4,7 +4,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "playwright_test": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2",
